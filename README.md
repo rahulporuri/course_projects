@@ -1,5 +1,8 @@
 # course_projects
 
+* mathematical physics
+* classical mechanics
+
 * engineering optics
 * differential equations
 * mathematical physics (?)
