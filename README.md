@@ -4,14 +4,14 @@ semester III
 	* Two body and three body problems using Runge-Kutta methods
 * introduction to engineering optics
 	* Near field and far field optics
-	* Diffraction limit
-	* etalon transmittance
-	* resolution limit
+	* Diffraction limit (done)
+	* etalon transmittance (done)
+	* resolution limit (done)
 * differential equations
 	* Euler method, predictor-corrector, RK methods and Numerov methods
 	* solving the wave equation
 	* diffusion equation
-	* poisson and laplave equations
+	* poisson and laplace equations (done)
 
 semester IV
 
@@ -30,22 +30,22 @@ semester V
 	* low, high and bass pass filters
 	* the fourier theorem and fourier transforms
 * quantum mechanics I
-	* schrodinger equation solutions
+	* schrodinger equation solutions (done)
 	* probability distributions of electrons in various shells
 * waves and oscillations
-	* simple and damped harmonic oscillators
-	* standing waves
-	* summation of higher harmonics
-	* superposition of waves
+	* simple and damped harmonic oscillators (done)
+	* standing waves (done)
+	* summation of higher harmonics (done)
+	* superposition of waves (done)
 * minor elective (?)
 
 semester VI
 
 * statistical physics (?)
-	* ising model
+	* ising model (done)
 * electromagnetic theory
-	* motion of particles in E and B fields
-	* solving the poisson and laplace equations numerically
+	* motion of particles in E and B fields (done)
+	* solving the poisson and laplace equations numerically (half odne)
 * minor elective (?)
 * condensed matter physics 1(?)
 * quantum mechanics II
@@ -70,9 +70,9 @@ semester VIII
 misc
 
 * ultrafast lasers
-	* gain profile
-	* mode locking
-	* chirped pulses
+	* gain profile (done)
+	* mode locking (done)
+	* chirped pulses (done)
 * general relativity and cosmology
 	* christoffel symbols, ricci tensor, ricci scalar and the einstein tensor
 	* stress energy tensors
