@@ -1,5 +1,3 @@
-# course_projects
-
 semester III
 
 * elements of classical dynamics
@@ -7,6 +5,8 @@ semester III
 * introduction to engineering optics
 	* Near field and far field optics
 	* Diffraction limit
+	* etalon transmittance
+	* resolution limit
 * differential equations
 	* Euler method, predictor-corrector, RK methods and Numerov methods
 	* solving the wave equation
@@ -18,6 +18,7 @@ semester IV
 * introduction to mathematical physics (?)
 	* Matrix diagonalization and LU decompsition
 	* Eigen values and Eigen vectors given a matrix
+	* metric distances on a manifold
 * contemporary physics (?)
 * physical chemistry (?)
 * mathematics elective (?)
@@ -33,6 +34,9 @@ semester V
 	* probability distributions of electrons in various shells
 * waves and oscillations
 	* simple and damped harmonic oscillators
+	* standing waves
+	* summation of higher harmonics
+	* superposition of waves
 * minor elective (?)
 
 semester VI
@@ -62,3 +66,13 @@ semester VIII
 * advanced electronics
 * numerical methods in programming
 * Dept Electives
+
+misc
+
+* ultrafast lasers
+	* gain profile
+	* mode locking
+	* chirped pulses
+* general relativity and cosmology
+	* christoffel symbols, ricci tensor, ricci scalar and the einstein tensor
+	* stress energy tensors
