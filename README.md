@@ -74,5 +74,5 @@ misc
 	* mode locking (done)
 	* chirped pulses (done)
 * general relativity and cosmology
-	* christoffel symbols, ricci tensor, ricci scalar and the einstein tensor
+	* christoffel symbols, ricci tensor, ricci scalar and the einstein tensor (in part)
 	* stress energy tensors
