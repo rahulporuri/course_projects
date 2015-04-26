@@ -10,14 +10,14 @@ semester III
 * differential equations
 	* Euler method, predictor-corrector, RK methods and Numerov methods
 	* solving the wave equation
-	* diffusion equation
+	* diffusion equation (done)
 	* poisson and laplace equations (done)
 
 semester IV
 
 * introduction to mathematical physics (?)
-	* Matrix diagonalization and LU decompsition
-	* Eigen values and Eigen vectors given a matrix
+	* Matrix diagonalization and LU decompsition (done)
+	* Eigen values and Eigen vectors given a matrix (done)
 	* metric distances on a manifold
 * contemporary physics (?)
 * physical chemistry (?)
@@ -25,7 +25,7 @@ semester IV
 
 semester V
 
-* classical mechanics
+* classical mechanics (?)
 * electronics
 	* low, high and bass pass filters
 	* the fourier theorem and fourier transforms
@@ -45,9 +45,9 @@ semester VI
 	* ising model (done)
 * electromagnetic theory
 	* motion of particles in E and B fields (done)
-	* solving the poisson and laplace equations numerically (half odne)
+	* solving the poisson and laplace equations numerically (half done)
 * minor elective (?)
-* condensed matter physics 1(?)
+* condensed matter physics 1 (?)
 * quantum mechanics II
 
 semester VII
@@ -65,7 +65,7 @@ semester VIII
 
 * advanced electronics
 * numerical methods in programming
-* Dept Electives
+* dept Electives
 
 misc
 
