@@ -1,0 +1,430 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     15601,        421]
+NotebookOptionsPosition[     14821,        391]
+NotebookOutlinePosition[     15159,        406]
+CellTagsIndexPosition[     15116,        403]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\t\t\t\t\t", 
+  RowBox[{
+   StyleBox["Radiation",
+    FontSlant->"Italic"], 
+   StyleBox[" ",
+    FontSlant->"Italic"], 
+   StyleBox["Pattern",
+    FontSlant->"Italic"], 
+   StyleBox[" ",
+    FontSlant->"Italic"], 
+   StyleBox["of",
+    FontSlant->"Italic"], 
+   StyleBox[" ",
+    FontSlant->"Italic"], 
+   StyleBox["a",
+    FontSlant->"Italic"], 
+   StyleBox[" ",
+    FontSlant->"Italic"], 
+   StyleBox["moving",
+    FontSlant->"Italic"], 
+   StyleBox[" ",
+    FontSlant->"Italic"], 
+   RowBox[{
+    StyleBox["charge",
+     FontSlant->"Italic"], 
+    StyleBox[".",
+     FontWeight->"Plain",
+     FontSlant->"Italic"], " ", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    "#"}], " ", "in", " ", "the", " ", "case", " ", "when", " ", "the", " ", 
+   "velocity", " ", "is", " ", "parallel", " ", "to", " ", "the", " ", 
+   "acceleration", " ", "of", " ", "the", " ", "moving", " ", 
+   RowBox[{"charge", ".", " "}]}]}]], "Input",
+ CellChangeTimes->{{3.59089296259891*^9, 3.590892979704749*^9}, {
+  3.590893119212554*^9, 3.590893119382937*^9}, {3.590893376431617*^9, 
+  3.590893423997507*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"PolarPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Sin", "[", "x", "]"}], "^", "2"}], "/", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          RowBox[{
+           RowBox[{"(", "i", ")"}], "*", 
+           RowBox[{"Cos", "[", "x", "]"}]}]}], ")"}], "^", "5"}]}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "1"}], "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData[{
+ RowBox[{
+  TagBox[
+   StyleBox[
+    DynamicModuleBox[{$CellContext`i$$ = 0, Typeset`show$$ = True, 
+     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+     "\"untitled\"", Typeset`specs$$ = {{
+       Hold[$CellContext`i$$], 0, 1}}, Typeset`size$$ = {185., {213., 219.}}, 
+     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+     True, $CellContext`i$25166$$ = 0}, 
+     DynamicBox[Manipulate`ManipulateBoxes[
+      1, StandardForm, "Variables" :> {$CellContext`i$$ = 0}, 
+       "ControllerVariables" :> {
+         Hold[$CellContext`i$$, $CellContext`i$25166$$, 0]}, 
+       "OtherVariables" :> {
+        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+         Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+         Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> 
+       PolarPlot[{
+         Sin[$CellContext`x]^2/(1 - $CellContext`i$$ 
+           Cos[$CellContext`x])^5}, {$CellContext`x, 0, 2 Pi}], 
+       "Specifications" :> {{$CellContext`i$$, 0, 1}}, "Options" :> {}, 
+       "DefaultOptions" :> {}],
+      ImageSizeCache->{249., {256., 262.}},
+      SingleEvaluation->True],
+     Deinitialization:>None,
+     DynamicModuleValues:>{},
+     SynchronousInitialization->True,
+     UnsavedVariables:>{Typeset`initDone$$},
+     UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+    Deployed->True,
+    StripOnInput->False],
+   Manipulate`InterpretManipulate[1]], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+   "#", " ", "in", " ", "the", " ", "case", " ", "when", " ", "the", " ", 
+    "velocity", " ", "if", " ", "perpenicular", " ", "to", " ", "the", " ", 
+    "acceleration", " ", "of", " ", "the", " ", "moving", " ", "charge", " ", 
+    "and", " ", "phi", " ", "or", " ", "y", " ", "is", "  ", "an", " ", 
+    "integral", " ", "multiple", " ", "of", " ", 
+    RowBox[{"Pi", ".", " ", "in"}], " ", "this", " ", "case", " ", "beta"}], 
+   " ", "-", " ", "velocity"}], ",", " ", 
+  RowBox[{
+   RowBox[{"beta", " ", "dot"}], " ", "-", " ", 
+   RowBox[{"acceleration", " ", "and", " ", "n"}], " ", "-", " ", 
+   RowBox[{
+   "the", " ", "radial", " ", "vector", "  ", "are", " ", "all", " ", "in", 
+    " ", "the", " ", "same", " ", 
+    RowBox[{"plane", ".", " "}]}]}]}]}], "Input",
+ CellChangeTimes->{{3.590892992651133*^9, 3.59089305336126*^9}, {
+  3.590893116310422*^9, 3.590893116653878*^9}, {3.590893174198978*^9, 
+  3.590893254138331*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"PolarPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"1", "/", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          RowBox[{
+           RowBox[{"(", "i", ")"}], "*", 
+           RowBox[{"Cos", "[", "x", "]"}]}]}], ")"}], "^", "3"}]}], "}"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "1"}], "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i$$ = 0, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`i$$], 0, 1}}, Typeset`size$$ = {360., {175., 180.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`i$25209$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`i$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`i$$, $CellContext`i$25209$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      PolarPlot[{
+        1/(1 - $CellContext`i$$ Cos[$CellContext`x])^3}, {$CellContext`x, 0, 
+         2 Pi}], "Specifications" :> {{$CellContext`i$$, 0, 1}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {217., 223.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.590892730721854*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "#", " ", "in", " ", "the", " ", "case", " ", "when", " ", "the", " ", 
+   "velocity", " ", "if", " ", "perpenicular", " ", "to", " ", "the", " ", 
+   "acceleration", " ", "of", " ", "the", " ", "moving", " ", "charge", " ", 
+   "and", " ", "phi", " ", "or", " ", "y", " ", "is", "  ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"2", "n"}], "+", "1"}], ")"}], 
+   RowBox[{"Pi", "/", "2."}], " ", "in", " ", "this", " ", "case"}], ",", " ", 
+  RowBox[{"beta", " ", "-", " ", "velocity"}], ",", " ", 
+  RowBox[{
+   RowBox[{"beta", " ", "dot"}], " ", "-", " ", 
+   RowBox[{"acceleration", " ", "and", " ", "n"}], " ", "-", " ", 
+   RowBox[{
+   "the", " ", "radial", " ", "vector", "  ", "are", " ", "all", " ", "in", 
+    " ", "three", " ", "mutually", " ", "perpendicular", " ", 
+    RowBox[{"planes", ".", " "}]}]}]}]], "Input",
+ CellChangeTimes->{{3.590893143478525*^9, 3.590893153291044*^9}, {
+  3.590893211666652*^9, 3.590893217085118*^9}, {3.590893266673911*^9, 
+  3.590893283482264*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"PolarPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"1", "/", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{"1", "-", 
+           RowBox[{
+            RowBox[{"(", "i", ")"}], "*", 
+            RowBox[{"Cos", "[", "x", "]"}]}]}], ")"}], "^", "3"}]}], "*", 
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Sin", "[", "x", "]"}], "^", "2"}], "*", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"1", "-", 
+             RowBox[{"i", "*", "i"}]}], ")"}], "/", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              RowBox[{"i", "*", 
+               RowBox[{"Cos", "[", "x", "]"}]}]}], ")"}], "^", "2"}]}]}]}], 
+        ")"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "1"}], "}"}]}], "]"}]], "Input"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i$$ = 0, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`i$$], 0, 1}}, Typeset`size$$ = {360., {72., 77.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`i$25252$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`i$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`i$$, $CellContext`i$25252$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      PolarPlot[{(1/(1 - $CellContext`i$$ Cos[$CellContext`x])^3) (1 - 
+          Sin[$CellContext`x]^2 ((1 - $CellContext`i$$ $CellContext`i$$)/(
+            1 - $CellContext`i$$ Cos[$CellContext`x])^2))}, {$CellContext`x, 
+         0, 2 Pi}], "Specifications" :> {{$CellContext`i$$, 0, 1}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {114., 120.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.590892741868983*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+   "#", " ", "a", " ", "3", "D", " ", "plot", " ", "of", " ", "the", " ", 
+    "radiation", " ", "pattern", " ", "of", " ", "a", " ", "moving", " ", 
+    "charge", " ", "in", " ", "the", " ", "case", " ", "when", " ", "the", 
+    " ", "velocity", " ", "is", " ", "perpendicular", " ", "to", " ", "the", 
+    " ", "acceleration", " ", "of", " ", "the", " ", "charge", " ", "and", 
+    " ", "the", " ", "dependence", " ", "of", " ", "the", " ", "pattern", " ",
+     "on", " ", "beta"}], " ", "-", " ", 
+   RowBox[{"the", " ", "ratio", " ", "of", " ", 
+    RowBox[{"V", "/", 
+     RowBox[{"c", ".", " "}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.590893292014196*^9, 3.590893367338214*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"SphericalPlot3D", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"1", "/", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          RowBox[{
+           RowBox[{"(", "i", ")"}], "*", 
+           RowBox[{"Cos", "[", "x", "]"}]}]}], ")"}], "^", "3"}]}], "*", 
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Cos", "[", "y", "]"}], "^", "2"}], "*", 
+         RowBox[{
+          RowBox[{"Sin", "[", "x", "]"}], "^", "2"}], "*", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"1", "-", 
+            RowBox[{"i", "*", "i"}]}], ")"}], "/", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"1", "-", 
+             RowBox[{"i", "*", 
+              RowBox[{"Cos", "[", "x", "]"}]}]}], ")"}], "^", "2"}]}]}]}], 
+       ")"}]}], ",", 
+     RowBox[{"{", 
+      RowBox[{"y", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", "0", ",", 
+       RowBox[{"2", "Pi"}]}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{3.590893098973244*^9}],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i$$ = 0, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`i$$], 0, 1}}, Typeset`size$$ = {360., {197., 203.}}, 
+    Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    True, $CellContext`i$26327$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, "Variables" :> {$CellContext`i$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`i$$, $CellContext`i$26327$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> 
+      SphericalPlot3D[(1/(1 - $CellContext`i$$ Cos[$CellContext`x])^3) (
+         1 - (Cos[$CellContext`y]^2 
+          Sin[$CellContext`x]^2) ((1 - $CellContext`i$$ $CellContext`i$$)/(
+           1 - $CellContext`i$$ Cos[$CellContext`x])^2)), {$CellContext`y, 0, 
+         2 Pi}, {$CellContext`x, 0, 2 Pi}], 
+      "Specifications" :> {{$CellContext`i$$, 0, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {240., 246.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{3.590892944418738*^9, 3.590893102318549*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.590892949948246*^9, 3.590892954177067*^9}}]
+},
+WindowSize->{740, 573},
+WindowMargins->{{Automatic, 141}, {Automatic, 35}},
+FrontEndVersion->"8.0 for Linux x86 (32-bit) (February 23, 2011)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 1140, 35, 107, "Input"],
+Cell[1700, 57, 606, 20, 50, "Input"],
+Cell[2309, 79, 2630, 55, 662, "Input"],
+Cell[CellGroupData[{
+Cell[4964, 138, 542, 18, 30, "Input"],
+Cell[5509, 158, 1564, 33, 457, "Output"]
+}, Open  ]],
+Cell[7088, 194, 1029, 21, 88, "Input"],
+Cell[CellGroupData[{
+Cell[8142, 219, 1043, 33, 69, "Input"],
+Cell[9188, 254, 1694, 34, 251, "Output"]
+}, Open  ]],
+Cell[10897, 291, 779, 14, 107, "Input"],
+Cell[CellGroupData[{
+Cell[11701, 309, 1217, 38, 88, "Input"],
+Cell[12921, 349, 1789, 36, 503, "Output"]
+}, Open  ]],
+Cell[14725, 388, 92, 1, 30, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
